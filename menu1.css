@@ -1,0 +1,176 @@
+
+/* - Menambahkan Padding dan Margin
+- Gunakan box sizing dengan value border-box (referensi https://www.w3schools.com/css/css3_box-sizing.asp)
+- Gunakan position, minimal 1 element (referensi https://www.w3schools.com/css/css_positioning.asp) */
+
+/* terakhir DL 21 okt 2024 */
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header .container{
+margin: 0cm;
+/* background-color:antiquewhite; */
+    box-sizing: border-box;
+
+}
+
+
+   header{
+    background-color: darkgrey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* color: rgb(153, 122, 80); */
+    padding: auto;
+    height: auto;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    /* inline-size: auto; */
+
+}
+.judul h1, .judul h4{
+  align-content: center;
+}
+
+ .container{
+    padding: 10px;
+    gap:9px;
+    display: flex;
+  justify-content: space-between;
+  padding: 10px;
+ }
+.container img{
+    width : 2cm;
+    height: 2cm;
+    margin-top:1cm;
+}
+ #crambled{
+/*
+ 
+#scrambled{ 
+
+
+    /* main (table) */
+    /* border-collapse: collapse; */
+    /* padding: 300; */
+    /* width: auto;
+    height: 20%; */
+    /* background-color: bisque;
+    border:  burlywood;
+    border-radius: 2px; */
+    padding-left: 0cm;
+    box-sizing: border-box;
+}
+
+.sign-up 
+   {
+ margin-left: 50px;
+
+   }
+   .upper ul li a .sign-up {
+    background-color:aliceblue
+   }
+
+
+ .atas .upper ul li{
+    /* list-style-type:none; */
+    display: inline-block;
+
+    margin-right: 10px;
+  
+    /* justify-content:row-reverse; */
+    
+ }
+ 
+ .upper ul li a button{
+ 
+    background-color:rgb(150, 139, 125);
+ /* margin:auto; */
+    border:none;
+    border-radius: 8px;
+ }
+/* .upper a{
+    outline-style: none;
+    outline: none !important;
+} */
+
+
+    main img{
+        width: 4cm;
+        height: 4cm;
+    }
+#scrambled table{
+
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 20%;
+    /* border: white 1px solid; */
+    background-color: rgb(176, 137, 130);
+    /* border-inline:  rgb(196, 170, 170) 3px; */
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+ th,td{
+    /* border-inline: */
+border:0.5px solid  rgba(156, 114, 107, 0.668);   color: white;
+    padding: 8px;
+    /* border: solid rgb(147, 83, 83); */
+
+}
+body .click-1 a button {
+    width: fit-content;
+    height: 0.8cm;
+    background-color:rgb(206, 193, 176);
+    border:none;
+    border-radius:0.20cm;
+}
+body .click-1 a button:hover {
+    background-color:rgb(129, 106, 77);
+    border-radius:0.20cm;
+}
+
+
+ .samping{
+    border-radius: 30px;
+    
+    border: 100px transparent;
+    padding: 10px;
+    padding-left: 400px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+ .side-bar .samping ul{
+    display: grid;
+    /* border-spacing: 2cm; */
+    /* justify-content: space-around; */
+
+    padding: 10px;
+    list-style-type: none;
+}
+.side-bar .samping ul li{
+    flex-wrap: row wrap;
+    margin-top: 6px;
+}
+
+ .side-bar .samping ul li a button{
+    background-color:rgb(176, 137, 130);
+    border:none;
+  border-radius:4px;
+ }
+footer {
+background-color: rgb(199, 199, 143);
+height:3cm;
+    padding: 10px;
+border-top-left-radius:15px;
+border-top-right-radius:15px;
+}
